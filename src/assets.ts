@@ -2,6 +2,8 @@ export const assets = {
   forbes: '/assets/forbes.svg',
   health: '/assets/health.svg',
   noomWordmark: '/assets/noom-wordmark.svg',
+  heroPhoto: '/assets/hero-photo.png',
+  heroStar: '/assets/hero-star.svg',
   weightTrend: '/assets/weight-trend.svg',
   iconBody: '/assets/icon-body.svg',
   iconPills: '/assets/icon-pills.svg',

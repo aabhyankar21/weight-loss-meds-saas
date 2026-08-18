@@ -179,16 +179,23 @@ export default function App() {
         </div>
       </header>
 
-      <div className="page-body">
-        <section className="hero">
+      <section className="hero">
+        <div className="hero-inner">
           <div className="hero-copy">
-            <div className="hero-badge">FORBES HEALTH #1 GLP-1 PROGRAM OF 2026</div>
+            <div className="hero-badge">
+              <Icon src={assets.heroStar} size={16} />
+              FORBES HEALTH #1 GLP-1 PROGRAM OF 2026
+            </div>
             <img className="noom-mark" src={assets.noomWordmark} alt="NOOM" />
-            <h1>Weight loss, reprogrammed.</h1>
-            <p className="hero-sub">
-              Doctor prescribed GLP-1 medication, personal coaching, and a plan that
-              adapts to you - starting at $79/mo.
-            </p>
+            <div className="hero-text">
+              <h1>Weight loss, reprogrammed.</h1>
+              <p className="hero-price">Starting at $79/mo.</p>
+              <ul className="hero-list">
+                <li>Doctor prescribed GLP-1 medication</li>
+                <li>Personal coaching, and a plan that adapts to you</li>
+                <li>Medication at your door in 7 days or less</li>
+              </ul>
+            </div>
             <div className="hero-cta">
               <a
                 className="btn-mint"
@@ -202,8 +209,27 @@ export default function App() {
               <span className="cta-note">On Noom's Website</span>
             </div>
           </div>
+          <div className="hero-photo">
+            <img src={assets.heroPhoto} alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div className="page-body">
+        <section className="value">
+          <div className="value-copy">
+            <h2>
+              Lose up to <em>20% of your body weight</em> - without white-knuckling it.
+            </h2>
+            <p>
+              GLP-1 medication works with your body's own biochemistry to quiet cravings
+              and keep you full — so the change feels sustainable, not forced. Semaglutide
+              and tirzepatide, prescribed online by licensed providers and shipped free -
+              in 7 days or less.
+            </p>
+          </div>
           <div className="trend-card">
-            <p className="trend-title">Weight trend</p>
+            <p className="trend-title">Weight Trend</p>
             <WeightTrendChart />
             <div className="trend-axis">
               <span>WEEK 1</span>
@@ -211,18 +237,6 @@ export default function App() {
               <span>MONTH 6</span>
             </div>
           </div>
-        </section>
-
-        <section className="value">
-          <h2>
-            Lose up to <em>20% of your body weight</em> - without white-knuckling it.
-          </h2>
-          <p>
-            GLP-1 medication works with your body's own biochemistry to quiet cravings
-            and keep you full — so the change feels sustainable, not forced. Semaglutide
-            and tirzepatide, prescribed online by licensed providers and shipped free -
-            in 7 days or less.
-          </p>
         </section>
 
         <section className="stats">
