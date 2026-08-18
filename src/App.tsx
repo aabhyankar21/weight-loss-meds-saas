@@ -189,6 +189,18 @@ export default function App() {
               Doctor prescribed GLP-1 medication, personal coaching, and a plan that
               adapts to you - starting at $79/mo.
             </p>
+            <div className="hero-cta">
+              <a
+                className="btn-mint"
+                href="https://www.noom.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Prequalify in 2 minutes
+                <Icon src={assets.iconArrowLg} size={24} rotate={-90} />
+              </a>
+              <span className="cta-note">On Noom's Website</span>
+            </div>
           </div>
           <div className="trend-card">
             <p className="trend-title">Weight trend</p>
