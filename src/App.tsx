@@ -229,7 +229,7 @@ export default function App() {
             </p>
           </div>
           <div className="trend-card">
-            <p className="trend-title">Weight Trend</p>
+            <p className="trend-title">Weight trend</p>
             <WeightTrendChart />
             <div className="trend-axis">
               <span>WEEK 1</span>
